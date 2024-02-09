@@ -175,11 +175,6 @@
   .home__scroll {
     display: none;
   }
-
-  .home__description {
-    max-width: 400px;
-    margin-bottom: var(--mb-2-5);
-  }
 }
 
 /* For small devices */
