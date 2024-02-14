@@ -53,7 +53,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Software Engineering</h3>
                 <span className="qualification__subtitle">ALX Africa</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"> 2022 to 2023</i>
+                  <i className="uil uil-calendar-alt"> Jun 2022 to Oct 2023</i>
                 </div>
               </div>
               <div>
@@ -76,7 +76,7 @@ const Qualification = () => {
                   Bahir Dar University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"> 2019 to 2023</i>
+                  <i className="uil uil-calendar-alt"> Sep 2019 to Jul 2023</i>
                 </div>
               </div>
             </div>
@@ -90,10 +90,7 @@ const Qualification = () => {
                   Don Bosco Institute of Technology
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt">
-                    {' '}
-                    June - 2018 to December - 2018
-                  </i>
+                  <i className="uil uil-calendar-alt"> Jun 2018 to Dec 2018</i>
                 </div>
               </div>
               <div>
@@ -118,7 +115,7 @@ const Qualification = () => {
                   Onjiko High School
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"> 2014 to 2018</i>
+                  <i className="uil uil-calendar-alt"> Feb 2014 to Dec 2017</i>
                 </div>
               </div>
             </div>
@@ -194,10 +191,7 @@ const Qualification = () => {
                   Bahir Dar Institute of Technology (ICT Development)
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt">
-                    {' '}
-                    Jun - 2022 to Oct - 2022
-                  </i>
+                  <i className="uil uil-calendar-alt"> Jun 2022 to Oct 2022</i>
                 </div>
               </div>
             </div>
