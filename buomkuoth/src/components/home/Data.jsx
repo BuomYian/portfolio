@@ -55,10 +55,17 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full-Stack Engineer</h3>
       <p className="home__description">
-        Dedicated and highly motivated Computer Science graduate with a strong
-        foundation in software engineering, web development, and networking.
-        Seeking opportunities to leverage my skills and experience to contribute
-        effectively to a dynamic team.
+        Welcome to my personal portfolio! I&apos;m Buomkuoth Makuach, a
+        dedicated Full-Stack Engineer driven by a passion for leveraging
+        technology to drive positive change. With a Bachelor&apos;s degree in
+        Computer Science and hands-on experience in software engineering, web
+        development, and networking, I&apos;ve honed my skills in JavaScript,
+        Python, and the MERN Stack. From collaborating on server-side
+        development and API creation to optimizing performance and managing
+        databases, I&apos;m committed to pushing boundaries and delivering
+        innovative solutions. Join me on this journey of exploration and impact
+        as we harness the transformative power of technology to create a
+        brighter future for all.
       </p>
       <a href="#contact" className="button button--flex">
         Contact me

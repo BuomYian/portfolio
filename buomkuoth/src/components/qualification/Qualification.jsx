@@ -84,7 +84,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Computer Applications and Enterprenuarship
+                  Computer Applications and Entrepreneuarship
                 </h3>
                 <span className="qualification__subtitle">
                   Don Bosco Institute of Technology

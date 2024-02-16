@@ -13,7 +13,10 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Backend developer with 2 - 3 years of experience
+            Dedicated and highly motivated Computer Science graduate with a
+            strong foundation in software engineering, web development, and
+            networking. Seeking opportunities to leverage my skills and
+            experience to contribute effectively to a dynamic team.
           </p>
           <a download="" href={CV} className="button">
             Download My CV

@@ -49,33 +49,40 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I created ux element interactions.
+                    I conduct user research and gathering insights to understand
+                    user needs and preferences.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
+                    I define product strategies and roadmaps based on user
+                    insights and business goals.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies
+                    I create wireframes, prototypes, and mockups to visualize
+                    product concepts and interactions.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I collaborate with cross-functional teams, including
+                    developers and stakeholders, to bring product ideas to life.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Iterating on designs based on user feedback and usability
+                    testing to improve the overall user experience.
                   </p>
                 </li>
               </ul>
@@ -91,14 +98,14 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(2)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? 'services__modal active-modal'
                 : 'services__modal'
             }
@@ -119,33 +126,40 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I created ux element interactions.
+                    I design intuitive user interfaces for websites, web
+                    applications, and mobile apps.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
+                    Crafting user flows and information architectures to ensure
+                    seamless navigation and interaction.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies
+                    Creating high-fidelity prototypes and interactive prototypes
+                    to demonstrate product functionality and user interactions.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Conducting usability testing and gathering feedback to
+                    refine and optimize the user experience.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Collaborating with developers to ensure the feasibility and
+                    implementation of design solutions
                   </p>
                 </li>
               </ul>
@@ -161,14 +175,14 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 1
+              toggleState === 3
                 ? 'services__modal active-modal'
                 : 'services__modal'
             }
@@ -189,33 +203,41 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I created ux element interactions.
+                    Developing visual identities, branding, and style guides to
+                    establish the visual language of digital products.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
+                    Designing user interfaces, including layouts, typography,
+                    color schemes, and iconography, to create visually appealing
+                    and cohesive designs.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies
+                    Creating graphics, illustrations, and multimedia elements to
+                    enhance the visual storytelling of digital products.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Collaborating with UX/UI designers to ensure visual designs
+                    align with user experience goals and usability principles.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Collaborating with UX/UI designers to ensure visual designs
+                    align with user experience goals and usability principles.
                   </p>
                 </li>
               </ul>
