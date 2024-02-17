@@ -8,20 +8,20 @@ export const Data = [
     image: Image1,
     title: 'Adhar Tor',
     description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+      'Working with @BuomYian was a breeze! His clear communication, problem-solving skills, and dedication to quality made our project a success. A true professional in the world of software engineering.',
   },
   {
     id: 2,
     image: Image2,
     title: 'Michael James',
     description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+      'Kudos to @BuomYian for his exceptional work on our software project! His ability to understand our needs and deliver tailored solutions surpassed our expectations. Looking forward to future collaborations!',
   },
   {
     id: 3,
     image: Image3,
     title: 'Beneya Joseph',
     description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+      'Hats off to @BuomYian for his outstanding contributions to our project! His technical expertise and commitment to excellence were evident in every aspect of the development process. Highly recommend him for any software engineering needs.',
   },
 ];
