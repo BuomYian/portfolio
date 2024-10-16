@@ -1,7 +1,7 @@
-import './About.css';
-import aboutImg from '../../assets/prof.jpg';
-import CV from '../../assets/BuomYianCV.pdf';
-import Info from './Info';
+import "./About.css";
+import aboutImg from "../../assets/prof.jpg";
+import CV from "../../assets/BuomYianCV.pdf";
+import Info from "./Info";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './Services.css';
+import { useState } from "react";
+import "./Services.css";
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -17,7 +17,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Full-Stack <br /> Developer
             </h3>
           </div>
 
@@ -29,8 +29,8 @@ const Services = () => {
           <div
             className={
               toggleState === 1
-                ? 'services__modal active-modal'
-                : 'services__modal'
+                ? "services__modal active-modal"
+                : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -39,7 +39,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Full Stack Developer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
@@ -94,7 +94,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Frontend <br /> Developer
             </h3>
           </div>
 
@@ -106,8 +106,8 @@ const Services = () => {
           <div
             className={
               toggleState === 2
-                ? 'services__modal active-modal'
-                : 'services__modal'
+                ? "services__modal active-modal"
+                : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -116,7 +116,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Frontend Developer </h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
@@ -171,7 +171,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Backend <br /> Developer
             </h3>
           </div>
 
@@ -183,8 +183,8 @@ const Services = () => {
           <div
             className={
               toggleState === 3
-                ? 'services__modal active-modal'
-                : 'services__modal'
+                ? "services__modal active-modal"
+                : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -193,7 +193,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Visaul Designer</h3>
+              <h3 className="services__modal-title">BAckend Developer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
