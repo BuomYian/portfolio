@@ -46,7 +46,7 @@ This is my personal portfolio website designed to highlight my professional jour
 
 ## Live Demo
 
-You can check out the live version of the portfolio here: [Live Demo](https://maaltech.ms)
+You can check out the live version of the portfolio here: [Live Demo](https://maaltech.me)
 
 ## Installation
 
