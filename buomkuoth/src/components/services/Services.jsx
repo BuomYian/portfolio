@@ -15,9 +15,9 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-palette services__icon"></i>
             <h3 className="services__title">
-              Full-Stack <br /> Developer
+              Product <br /> Designer
             </h3>
           </div>
 
@@ -39,7 +39,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Full Stack Developer</h3>
+              <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
@@ -92,9 +92,9 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <i className="uil uil-web-grid-alt services__icon"></i>
             <h3 className="services__title">
-              Frontend <br /> Developer
+              UI/UX <br /> Designer
             </h3>
           </div>
 
@@ -116,7 +116,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Frontend Developer </h3>
+              <h3 className="services__modal-title">Ui/Ux Developer </h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
@@ -169,7 +169,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-server services__icon"></i>
             <h3 className="services__title">
               Backend <br /> Developer
             </h3>
@@ -193,7 +193,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">BAckend Developer</h3>
+              <h3 className="services__modal-title">Backend Developer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies
@@ -203,41 +203,184 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Developing visual identities, branding, and style guides to
-                    establish the visual language of digital products.
+                    Develop and maintain APIs for client-server communication.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Designing user interfaces, including layouts, typography,
-                    color schemes, and iconography, to create visually appealing
-                    and cohesive designs.
+                    Manage user authentication and authorization systems.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Creating graphics, illustrations, and multimedia elements to
-                    enhance the visual storytelling of digital products.
+                    Optimize server performance and scalability.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Collaborating with UX/UI designers to ensure visual designs
-                    align with user experience goals and usability principles.
+                    Design and implement server-side logic and algorithms.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Collaborating with UX/UI designers to ensure visual designs
-                    align with user experience goals and usability principles.
+                    Ensure data security and integrity in server-side
+                    operations.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="services__content">
+          <div>
+            <i className="uil uil-exchange services__icon"></i>
+            <h3 className="services__title">
+              APIs <br /> Development
+            </h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(2)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+
+              <h3 className="services__modal-title">APIs Development</h3>
+              <p className="services__modal-description">
+                Service with more than 3 years of experience. Providing quality
+                work to clients and companies
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Design and document RESTful or GraphQL APIs.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Handle API versioning and updates for backward
+                    compatibility.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Implement authentication methods like OAuth2 or JWT for API
+                    security.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Monitor API usage and performance metrics.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Ensure proper error handling and status codes in API
+                    responses.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="services__content">
+          <div>
+            <i className="uil uil-database services__icon"></i>
+            <h3 className="services__title">
+              Database <br /> Management
+            </h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(2)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+
+              <h3 className="services__modal-title">Database Management</h3>
+              <p className="services__modal-description">
+                Service with more than 3 years of experience. Providing quality
+                work to clients and companies
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Design and optimize database schemas and relationships.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Manage database migrations, backups, and recovery processes.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Write and optimize complex SQL queries or work with ORMs.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Ensure database security and handle user permissions.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Monitor database performance and tune indexes or queries for
+                    efficiency.
                   </p>
                 </li>
               </ul>
