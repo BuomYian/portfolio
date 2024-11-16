@@ -44,7 +44,7 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/buomkuoth-makuach-3ab137200"
+            href="https://www.linkedin.com/in/buomkuoth-makuach"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"

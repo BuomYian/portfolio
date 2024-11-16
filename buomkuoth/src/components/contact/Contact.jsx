@@ -1,7 +1,7 @@
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-import './Contact.css';
+import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
@@ -9,9 +9,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_a4qejc3', 'template_slky4bl', form.current, {
-      publicKey: 'DwZeN8olPgp4jVNyu',
+    emailjs.sendForm("service_a4qejc3", "template_slky4bl", form.current, {
+      publicKey: "DwZeN8olPgp4jVNyu",
     });
+    alert("Message sent successfully!");
     e.target.reset();
   };
 
@@ -44,10 +45,10 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">+251958180654</span>
+              <span className="contact__card-data">+254743354833</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=+251985180654&text=hello!"
+                href="https://api.whatsapp.com/send?phone=+254743354833&text=hello!"
                 className="contact__button"
               >
                 Write to me

@@ -41,7 +41,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies
               </p>
 
@@ -49,40 +49,31 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I conduct user research and gathering insights to understand
-                    user needs and preferences.
+                    Conduct user research to understand user needs, behaviors,
+                    and preferences.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I define product strategies and roadmaps based on user
-                    insights and business goals.
+                    Create wireframes, prototypes, and high-fidelity UI designs.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create wireframes, prototypes, and mockups to visualize
-                    product concepts and interactions.
+                    Collaborate with stakeholders to align designs with business
+                    goals.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I collaborate with cross-functional teams, including
-                    developers and stakeholders, to bring product ideas to life.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Iterating on designs based on user feedback and usability
-                    testing to improve the overall user experience.
+                    Test and iterate designs based on user feedback and
+                    usability testing.
                   </p>
                 </li>
               </ul>
@@ -118,7 +109,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui/Ux Developer </h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies
               </p>
 
@@ -126,40 +117,31 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I design intuitive user interfaces for websites, web
-                    applications, and mobile apps.
+                    Design user interfaces that are visually appealing and easy
+                    to navigate.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Crafting user flows and information architectures to ensure
-                    seamless navigation and interaction.
+                    Develop interactive prototypes to demonstrate user flows.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Creating high-fidelity prototypes and interactive prototypes
-                    to demonstrate product functionality and user interactions.
+                    Ensure consistency by adhering to design systems and
+                    guidelines.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Conducting usability testing and gathering feedback to
-                    refine and optimize the user experience.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Collaborating with developers to ensure the feasibility and
-                    implementation of design solutions
+                    Conduct usability testing and improve designs based on
+                    findings
                   </p>
                 </li>
               </ul>
@@ -195,7 +177,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Backend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies
               </p>
 
@@ -203,36 +185,32 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop and maintain APIs for client-server communication.
+                    Implement server-side logic and algorithms to meet
+                    application requirements.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Manage user authentication and authorization systems.
+                    Develop and maintain APIs for communication between
+                    front-end and back-end systems.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Optimize server performance and scalability.
+                    Integrate third-party services and databases into the
+                    application.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and implement server-side logic and algorithms.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Ensure data security and integrity in server-side
-                    operations.
+                    Ensure scalability, performance, and security of the backend
+                    architecture.
                   </p>
                 </li>
               </ul>
@@ -248,14 +226,14 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>
+          <span className="services__button" onClick={() => toggleTab(4)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 2
+              toggleState === 4
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -268,7 +246,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">APIs Development</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies
               </p>
 
@@ -323,14 +301,14 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>
+          <span className="services__button" onClick={() => toggleTab(5)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 2
+              toggleState === 5
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -343,7 +321,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Database Management</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies
               </p>
 

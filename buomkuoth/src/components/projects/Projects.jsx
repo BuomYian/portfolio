@@ -1,6 +1,6 @@
-import Project1 from "../../assets/work1.jpg";
-import Project2 from "../../assets/work2.jpg";
-import Project3 from "../../assets/work3.jpg";
+import Project1 from "../../assets/aiimage.jpeg";
+import Project2 from "../../assets/hos.png";
+import Project3 from "../../assets/pos.jpeg";
 import "./Projects.css";
 
 export const Projects = () => {
@@ -26,7 +26,7 @@ export const Projects = () => {
       id: 3,
       image: Project3,
       title: "Inventory Management system",
-      liveUrl: "https://project3-live-url.com",
+      liveUrl: "#",
       githubUrl: "https://github.com/BuomYian/inventory-management-dashboard",
       description: "Inventory dashboard web app used for managing inventories",
     },
@@ -52,7 +52,7 @@ export const Projects = () => {
                 <a
                   href={project.liveUrl}
                   className="button button--flex"
-                  target="_blank"
+                  // target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bx bx-link-external"></i>
