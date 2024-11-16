@@ -8,7 +8,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">HTML5</h3>
-              <span className="skills__level">advance</span>
+              <span className="skills__level">advanced</span>
             </div>
           </div>
 
